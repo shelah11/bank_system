@@ -1,0 +1,20 @@
+version: 0.1
+
+phases:
+  install:
+    commands:
+      -
+
+  pre_build:
+    commands:
+      # Run all tests included with our application
+      - go test
+
+  build:
+    commands:
+      # Build our application
+      - go build
+
+artifacts:
+  files:
+    -
