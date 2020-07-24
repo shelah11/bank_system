@@ -7,12 +7,12 @@ phases:
   pre_build:
     commands:
       # Run all tests included with our application
-      - go test ./src/pkg1/bank_system_test.go
+      - go test .
 
   build:
     commands:
       # Build our application
-      - go build && ./src/pkg1/main
+      - go build && ./main
 
 artifacts:
   files:
