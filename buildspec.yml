@@ -4,7 +4,6 @@ phases:
   install:
     commands:
       -
-
   pre_build:
     commands:
       # Run all tests included with our application
